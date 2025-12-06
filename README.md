@@ -1,4 +1,3 @@
-# Salary-Prediction-Project
 Salary Prediction – End-to-End Machine Learning Pipeline
 
 This repository showcases a full ML workflow aimed at predicting developer salaries using structured survey data.
@@ -15,7 +14,7 @@ The project is divided into several modules to ensure clarity, scalability, and 
 /results
 /models
 
-Technical Workflow
+ Technical Workflow
 
 Data Cleaning
 
@@ -56,6 +55,7 @@ Visualization of results
 Testing Interface
 
 Script allowing users to input parameters and get a predicted salary
+
  Objective
 
 Understand salary determinants and build a reliable prediction model using real-world developer data.
