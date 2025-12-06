@@ -4,7 +4,7 @@ Salary Prediction – End-to-End Machine Learning Pipeline
 This repository showcases a full ML workflow aimed at predicting developer salaries using structured survey data.
 The project is divided into several modules to ensure clarity, scalability, and reproducibility.
 
-📂 Project Structure
+ Project Structure
 /src
   ├── nettoyage_data.py      # Data cleaning & preprocessing
   ├── analyse_data.py        # Exploratory visualizations
@@ -15,7 +15,7 @@ The project is divided into several modules to ensure clarity, scalability, and 
 /results
 /models
 
-🔧 Technical Workflow
+Technical Workflow
 
 Data Cleaning
 
