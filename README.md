@@ -1,61 +1,48 @@
-Salary Prediction – End-to-End Machine Learning Pipeline
+Salary Prediction 
 
 This repository showcases a full ML workflow aimed at predicting developer salaries using structured survey data.
 The project is divided into several modules to ensure clarity, scalability, and reproducibility.
 
- Project Structure
+## Project Structure
 /src
-  ├── nettoyage_data.py      # Data cleaning & preprocessing
-  ├── analyse_data.py        # Exploratory visualizations
-  ├── entrainement_model.py  # Model training & evaluation
-  ├── test_model.py          # User salary prediction test
-  └── utils/                 # Helper functions
+  ├── nettoyage_data.py
+  
+  ├── analyse_data.py
+  
+  ├── entrainement_model.py
+  
+  ├── test_model.py
+  
+  └── utils/
 /data
 /results
 /models
 
- Technical Workflow
+## Workflow
 
-Data Cleaning
+### Data Cleaning
+- Handling missing values
+- Normalizing categorical variables
+- Removing outliers
+- Encoding features
 
-Handling missing entries
+### Exploratory Data Analysis
+- Salary distribution
+- Correlation analysis
+- Detection of anomalies
+- Feature impact visualizations
 
-Normalizing categories
+### Model Training
+- Linear Regression, RandomForest, GradientBoosting
+- Hyperparameter tuning
+- Cross-validation
+- Model saving
 
-Removing salary outliers
+### Evaluation
+- R², RMSE, MAE
+- Performance comparison
+- Result visualizations
 
-Encoding categorical variables
+### Testing
+- User input script for salary prediction
 
-Exploratory Data Analysis
-
-Salary distribution
-
-Correlation between skills, experience, and income
-
-Detection of anomalies
-
-Model Training
-
-Tested algorithms: Linear Regression, RandomForest, GradientBoosting
-
-Hyperparameter tuning
-
-Cross-validation
-
-Saving trained models
-
-Evaluation
-
-Metrics: R², RMSE, MAE
-
-Comparison of model performance
-
-Visualization of results
-
-Testing Interface
-
-Script allowing users to input parameters and get a predicted salary
-
- Objective
-
-Understand salary determinants and build a reliable prediction model using real-world developer data.
